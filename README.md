@@ -11,15 +11,17 @@ This repo consists of multiple notebooks which covers the given topics. The note
 ---
 ### Installation
 
-Python can be installed through the offical website, but I recommend installing and using anaconda, since it manages different Python versions much better. A little tutorial for anaconda can be found here: https://github.com/xXAI-botXx/Project-Helper#anaconda <br>
+Python can be installed through [the offical website](https://python.org), but I recommend installing and using anaconda, since it manages different Python versions much better. A little tutorial for anaconda can be found here: https://github.com/xXAI-botXx/Project-Helper#anaconda. Another way is to use Docker and installing and using python in a container (virtual environment), all important informations can be found here: https://github.com/xXAI-botXx/Docker.<br>
 
-Your python environment just needs IPython and an ipykernel package through the usage of notebooks.
+Your python environment with anaconda just needs IPython and an ipykernel package through the usage of notebooks.
 
 ```bash
 conda create -n ref python=3.12 pip -y 
 conda activate ref
-pip install ipykernel ipython pygame moderngl moderngl-window
+pip install ipykernel ipython pygame moderngl moderngl-window graphviz astmonkey matplotlib
 ```
+
+Also go this website and install graphviz -> https://graphviz.org/download/.
 
 Documentation/help can be found on the official website https://docs.python.org/3/ or the documentation website of the module/library you use. And which mostlikely works is the built-in function `help`. For example:
 ```python
@@ -56,7 +58,7 @@ print(help(print))
     - [Parallel Computing](./src/standard_lib/parallel_computing.ipynb)
     - [Data I/O](./src/standard_lib/data_io.ipynb)
     - [Networking](./src/standard_lib/networking.ipynb)
-    - [Debugging](./src/standard_lib/debugging.ipynb)
+    - [Debugging](./src/standard_lib/debugging.ipynb) (including `dis`, `inspect`)
     - [Documentation](./src/standard_lib/documentation.ipynb)
     - [External program calls](./src/standard_lib/subprocess.ipynb)
     - [Python and other languages](./src/standard_lib/other_languages.ipynb)
