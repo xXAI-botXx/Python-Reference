@@ -49,6 +49,7 @@ print(help(print))
     - [File I/O](./src/basics/file_io.ipynb)
     - [Iterators & Generators](./src/basics/iterators_and_generators.ipynb)
 - **Standard Library Modules**
+    - [Data Types](./src/standard_lib/data_types.ipynb)
     - [Math](./src/standard_lib/math.ipynb)
     - [Cryptography](./src/standard_lib/crypto.ipynb)
     - [Regular Expressions](./src/standard_lib/regular_expressions.ipynb)
@@ -65,15 +66,18 @@ print(help(print))
     - [GUIs with TKinter (modern)](./src/standard_lib/tkinter.ipynb)
     - *... -> are there important missing standard library modules?*
 - **Additional (External) Library Modules**
-    - [Image Handling via Pillow](./src/standard_lib/pillow.ipynb)
-    - [Argumentparsing via PyDantic](./src/standard_lib/pydantic.ipynb)
-    - [HTTP interaction with request module](./src/standard_lib/request.ipynb)
-    - [Server with Django (or fastapi))](./src/standard_lib/server.ipynb)
+    - **Images**
+        - [Image Handling via Pillow](./src/external_libs/images/pillow.ipynb)
+        - [Image Handling via CV2](./src/external_libs/images/cv2.ipynb)
+    - [Argumentparsing via PyDantic](./src/external_libs/pydantic.ipynb)
+    - [HTTP interaction with request module](./src/external_libs/request.ipynb)
+    - [Server with Django (or fastapi))](./src/external_libs/server.ipynb)
     - **Graphical user interfaces**
         - [QT](./src/external_libs/GUI/qt.ipynb)
     - **Games and Simulations**
         - [PyGame](./src/external_libs/games/pygame/pygame.ipynb)
         - [Rendering with OpenGL](./src/external_libs/rendering/moderngl.ipynb)
+        - [(External) WindForge Engine](https://github.com/xXAI-botXx/Wind_Forge)
     - *... -> are there important missing external library modules? (for sure there are much more)*
     - *user input control? (mouse/keyboard)*
     - *Ursina Engine?*
